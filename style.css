@@ -1,0 +1,119 @@
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    
+    text-align: left;
+    background-color:#effbec;
+    margin: 0;
+}
+header h1 a{
+    color: green;
+    text-decoration: none;
+}
+.navbar{
+    background-color:green;
+    margin: 0;
+}
+.navbar nav ul { 
+    display: inline-block;
+    list-style: none;
+    
+}
+.navbar nav ul li{
+   margin: 0 20px; /* gerer la marge exterieure des li*/
+}
+.navbar nav{
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 32px;
+}
+.navbar nav ul a:hover{
+    background-color: #fff;
+    color: green;
+}
+section{
+    padding: 10px 10%; /*repousse les sections de 15px en haut et bas/ 15% à droite et gauche pour maintenir si l'ecran change de taillle */
+    background-color: #effbec;
+    color: #000000;
+    
+}
+section h2{
+    text-align: center;
+    color:green;
+    font-size: 40px;
+    font-weight: bold;
+}
+section .container-propos{
+    display: flex;
+}
+section .container-propos .para-propos{
+    margin-right: 30px;
+}
+section .container-propos .para-propos p{
+    text-align: justify;
+    font-size: 18px;
+}
+section .container-travail{
+    color: #000000;
+    text-align: justify;
+    font-size: 18px;
+}
+section .container-cv{
+    display: flex;
+    background-color: #effbec;
+}
+section .container-cv h3{
+    font-size: 20px;
+}
+section .container-cv .information{
+    margin-right: 25px;
+}
+section .container-cv p{
+    font-size: 18px;
+    text-align: justify;
+}
+section .container-paracontact{
+    color: #000000;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+section .section-contact{
+    display: flex;
+}
+section .section-contact .container-contact{
+    width: 750px;
+    margin-right: 20px;
+    text-align: justify;
+}
+section .section-contact input{
+    width: 300px;
+    height: 30px;
+}
+section .section-contact label{
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+}
+section .section-contact button{
+    margin:5px  20px;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+}
+footer{
+    padding: 10px 10%; /*repousse les sections de 15px en haut et bas/ 15% à droite et gauche pour maintenir si l'ecran change de taillle */
+    background-color: #effbec;
+    color: #000000;
+    
+}
+footer .classe-footer{
+    text-align: center;
+}
